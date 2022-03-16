@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&display=swap');
+
+body {
+    background: #ffc1b2;
+    font-family: 'Loved by the King', cursive;
+}
+
+.conteiner {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.fotos {
+    background: #ffdbc8;
+    padding: 20px;
+    box-shadow: 2px 1px 5px black ;
+}
+
+.fotos img {
+    width: 100%;
+    height:500px;
+    box-shadow: 10px 10 px white;
+    object-fit: cover;
+}
+
+.videos {
+    background: #ffdbc8;
+    padding: 20px;
+    box-shadow: 2px 1px 5px black ;
+}
+
+.videos video {
+    width: 100%;
+    height:500px;
+    box-shadow: 10px 10 px white;
+    object-fit: cover;
+}
+
+#titulo {
+    width: 400px;
+}
+
+.fotos:hover {
+    transform: translate(10px);
+}
+
+.caixa_do_titulo {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin: 40px auto 40px auto;
+    width: 1000px;
+}
+
+.descricao {
+    color: black;
+    font-size: 50px;
+}
